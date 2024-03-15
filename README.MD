@@ -12,8 +12,7 @@ In 1 region we can have maximum 5 VPCs.
 10. Create a name for subnet (Public and Private)
 11. WE choose availability zone in which subnet will reside.
 12. IPV4 subnet CIDR block - we specify amount of IP adreses (e.g. 10.0.1.0/24). 
-13. Create subnet. Repeat same procedure for private one. A range of IP addresses in your VPC. You can launch AWS resources, such as EC2 instances, into your subnets. Each subnet resides entirely within one Availability Zone. By launching instances in at least two Availability Zones, you can protect your applications from the failure of a single Availability Zone.
-14. 
+13. Create subnet. Repeat same procedure for private one. A range of IP addresses in your VPC. You can launch AWS resources, such as EC2 instances, into your subnets. Each subnet resides entirely within one Availability Zone. By launching instances in at least two Availability Zones, you can protect your applications from the failure of a single Availability Zone. 
 15. For Public subnet we have to be connected to the Internet. 
 16. Click on Internet Gateway - create Internet Gateway. Connects your VPC to the internet. The instances in a public subnet can access the internet because the subnet route table contains a route that sends traffic bound for the internet to the internet gateway. 
 17. Create a name for Internet Gateway.
